@@ -142,15 +142,43 @@ export default function FreshStartWebsite() {
         </div>
         <div className="bg-white shadow rounded-lg p-6">
           <h3 className="font-bold text-lg">{tr.quickBooking}</h3>
-          <form className="mt-4 grid gap-3">
-            <input className="border rounded p-2" placeholder={tr.name} />
-            <input className="border rounded p-2" placeholder={tr.phone} />
-            <select className="border rounded p-2">
-              <option>{tr.sofa}</option>
-              <option>{tr.rug}</option>
+          <form
+            className="mt-4 grid gap-3"
+            action="https://formspree.io/f/mnngjoav"
+            method="POST"
+          >
+            <input
+              className="border rounded p-2"
+              name="name"
+              placeholder={tr.name}
+              required
+            />
+            <input
+              className="border rounded p-2"
+              name="phone"
+              placeholder={tr.phone}
+              required
+            />
+            <select
+              className="border rounded p-2"
+              name="service"
+              required
+            >
+              <option value="">{tr.service}</option>
+              <option value="sofa">{tr.sofa}</option>
+              <option value="rug">{tr.rug}</option>
             </select>
-            <textarea className="border rounded p-2" placeholder={tr.notes}></textarea>
-            <button type="button" className="px-4 py-2 bg-amber-400 text-white rounded-lg">{tr.submit}</button>
+            <textarea
+              className="border rounded p-2"
+              name="notes"
+              placeholder={tr.notes}
+            ></textarea>
+            <button
+              type="submit"
+              className="px-4 py-2 bg-amber-400 text-white rounded-lg"
+            >
+              {tr.submit}
+            </button>
           </form>
         </div>
       </section>
