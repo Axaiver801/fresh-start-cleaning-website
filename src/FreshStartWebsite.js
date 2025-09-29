@@ -50,7 +50,6 @@ export default function FreshStartWebsite() {
       contact: "Contact",
       contactText: "Call us today to schedule your cleaning or pickup.",
       phoneLabel: "📞 Phone:",
-      websiteLabel: "🌐 Website:",
     },
     es: {
       title: "FreshStart Soluciones de Limpieza",
@@ -96,7 +95,6 @@ export default function FreshStartWebsite() {
       contact: "Contacto",
       contactText: "Llámanos hoy para programar tu limpieza o recogida.",
       phoneLabel: "📞 Teléfono:",
-      websiteLabel: "🌐 Sitio Web:",
     },
   };
 
@@ -240,7 +238,6 @@ export default function FreshStartWebsite() {
         <p className="mt-2 text-gray-600">{tr.contactText}</p>
         <div className="mt-4 p-4 border rounded-lg bg-white">
           <p className="text-sm text-gray-700">{tr.phoneLabel} <strong>(801) 205-8746</strong></p>
-          <p className="text-sm text-gray-700 mt-1">{tr.websiteLabel} <strong>www.freshstartcleaningslc.com</strong></p>
         </div>
       </section>
 
