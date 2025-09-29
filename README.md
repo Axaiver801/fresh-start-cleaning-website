@@ -1,4 +1,4 @@
-# FreshStart Cleaning Website
+# Yay it's clean Website
 
 A bilingual (English/Spanish) React landing page and business model for a sofa & rug cleaning service.
 
@@ -23,4 +23,4 @@ A bilingual (English/Spanish) React landing page and business model for a sofa &
 
 ---
 
-© FreshStart Cleaning Solutions
+© Yay it's clean

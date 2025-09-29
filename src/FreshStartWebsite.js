@@ -7,7 +7,7 @@ export default function FreshStartWebsite() {
 
   const t = {
     en: {
-      title: "FreshStart Cleaning Solutions",
+      title: "Yay it's clean",
       subtitle: "Sofas • Rugs — Pickup & Deep Cleaning",
       heroHeading: "Breathe new life into your home.",
       heroText:
@@ -37,7 +37,7 @@ export default function FreshStartWebsite() {
       why3: "✔ Trained local staff",
       model: "Business Model & Team",
       modelText:
-        "FreshStart Cleaning Solutions sells direct-to-customer cleaning services. We market by approaching families, parents, pet owners, and homeowners in public settings, handing them flyers and directing them to this website for bookings.",
+        "Yay it's clean sells direct-to-customer cleaning services. We market by approaching families, parents, pet owners, and homeowners in public settings, handing them flyers and directing them to this website for bookings.",
       labor: "Labor",
       laborText:
         "Cleaners who perform sofa and rug cleaning and manage pickups/deliveries.",
@@ -53,7 +53,7 @@ export default function FreshStartWebsite() {
       websiteLabel: "🌐 Website:",
     },
     es: {
-      title: "FreshStart Soluciones de Limpieza",
+      title: "¡Yay está limpio!",
       subtitle: "Sofás • Alfombras — Recogida y Limpieza Profunda",
       heroHeading: "Devuelve vida nueva a tu hogar.",
       heroText:
@@ -83,7 +83,7 @@ export default function FreshStartWebsite() {
       why3: "✔ Personal local capacitado",
       model: "Modelo de Negocio y Equipo",
       modelText:
-        "FreshStart Cleaning Solutions vende servicios de limpieza directamente al cliente. Nos promocionamos acercándonos a familias, padres, dueños de mascotas y propietarios en lugares públicos, entregando volantes y dirigiéndolos a este sitio web para reservar.",
+        "Yay it's clean vende servicios de limpieza directamente al cliente. Nos promocionamos acercándonos a familias, padres, dueños de mascotas y propietarios en lugares públicos, entregando volantes y dirigiéndolos a este sitio web para reservar.",
       labor: "Trabajo",
       laborText:
         "Limpiadores que realizan la limpieza de sofás y alfombras y manejan recogidas/entregas.",
@@ -107,7 +107,7 @@ export default function FreshStartWebsite() {
       {/* Header */}
       <header className="max-w-6xl mx-auto p-6 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-lg bg-amber-400 flex items-center justify-center font-bold text-white">FS</div>
+          <div className="w-12 h-12 rounded-lg bg-amber-400 flex items-center justify-center font-bold text-white">YC</div>
           <div>
             <h1 className="text-2xl font-extrabold">{tr.title}</h1>
             <p className="text-sm text-gray-600">{tr.subtitle}</p>
@@ -175,7 +175,7 @@ export default function FreshStartWebsite() {
             ></textarea>
             <button
               type="submit"
-              className="px-4 py-2 bg-amber-400 text-white rounded-lg"
+              className="w-full font-bold text-lg px-4 py-2 bg-amber-400 text-white rounded-lg"
             >
               {tr.submit}
             </button>
@@ -247,7 +247,7 @@ export default function FreshStartWebsite() {
       {/* Footer */}
       <footer className="py-6 border-t mt-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-sm">© {new Date().getFullYear()} FreshStart Cleaning Solutions</div>
+          <div className="text-sm">© {new Date().getFullYear()} Yay it's clean</div>
           <div className="text-sm text-gray-600">Sofas & Rugs • Pickup & Delivery • Trusted Local Service</div>
         </div>
       </footer>
